@@ -56,13 +56,13 @@ pipeline {
                 echo "trigger-test-2"
 
                 }          
-        }
+        }weww
 
 
     }
                 post{
                    always{
-                      echo 'I will always say hello again'
+                      echo 'I will always run always'
                    }
 
                     success{
