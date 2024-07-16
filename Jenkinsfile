@@ -52,6 +52,10 @@ pipeline {
                 echo "Password: ${params.PASSWORD}"
                 
                 echo "trigger-test-1"
+
+                echo "trigger-test-2"
+
+                
             }
         }
     }
