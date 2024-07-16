@@ -20,14 +20,7 @@ pipeline {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     
     }
-
-    environment{
-        DEPLOT_TO='Production'
-        GREETINGS='GoodMorning'
-
-    }
- 
-    stages {
+     stages {
         stage('Build') { 
             steps {
                 sh 'echo this is build'
