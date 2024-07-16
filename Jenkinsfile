@@ -65,20 +65,16 @@ pipeline {
                       echo 'I will always say hello again'
                    }
 
-                }
-                post{
                     success{
                         echo 'I will run when pipline is success'   
                     }
 
-                post{
                     failure{
                           echo'I will run when pipline is fail'
                     }
-                }    
-
-
-                }
+                 }    
 
 
 }
+
+
