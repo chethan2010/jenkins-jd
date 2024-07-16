@@ -20,6 +20,12 @@ pipeline {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     
     }
+
+    environment{
+        DEPLOT_TO='Production'
+        GREETINGS='GoodMorning'
+
+    }
  
     stages {
         stage('Build') { 
@@ -48,6 +54,7 @@ pipeline {
                 echo "Toggle: ${params.TOGGLE}"
 
                 echo "Choice: ${params.CHOICE}"
+
 
                 echo "Password: ${params.PASSWORD}"
                 
