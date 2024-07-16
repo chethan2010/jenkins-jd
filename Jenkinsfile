@@ -39,5 +39,20 @@ pipeline {
                 sh 'echo this is Deploy'
             }
         }
+        stage{
+            steps{
+                echo "Hello ${params.PERSON}"
+
+                echo "Biography: ${params.BIOGRAPHY}"
+
+                echo "Toggle: ${params.TOGGLE}"
+
+                echo "Choice: ${params.CHOICE}"
+
+                echo "Password: ${params.PASSWORD}"
+                
+                echo "trigger-test-1"
+            }
+        }
     }
 }
