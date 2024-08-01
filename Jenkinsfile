@@ -56,7 +56,7 @@ pipeline {
                 echo "trigger-test-2"
 
                 }          
-        }weww
+        }
 
 
     }
