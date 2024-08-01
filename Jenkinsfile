@@ -57,6 +57,8 @@ pipeline {
 
                 echo "trigger-test-3"
 
+                echo "trigger-test-4"
+
 
                 }          
         }
